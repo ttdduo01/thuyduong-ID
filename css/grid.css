@@ -1,0 +1,287 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Sans:wght@400;700&family=Roboto:wght@100;300;400;500&display=swap");
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #1f1f1f;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Noto Sans', sans-serif;
+	color: #1E266D;
+}
+p{
+	line-height: 180%;
+}
+.bg-primary{
+	background-color: #1E266D;
+}
+.bg-secondary{
+	background-color: #FD5285;
+}
+.bg-success{
+	background:#46AF6C;
+}
+.bg-error{
+	background: #D6302C;
+}
+.bg-infor{
+	background: #45A0EC;
+}
+.bg-secondary-opacity{
+	background-color: #f9f3fe;
+}
+.text-primary{
+	color: #1E266D;
+}
+.text-secondary{
+	color: #fd5285;
+}
+.container{
+	width: 1280px;
+	margin: 0 auto;
+/*	background: pink;*/
+}
+.row{
+
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33.33%;
+}
+.col-5{
+	width: 41.66%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 58.33%;
+}
+.col-8{
+	width: 66.66%;
+}
+.col-9{
+	width: 75%;
+}
+.col-10{
+	width: 83.33%;
+}
+.col-11{
+	width: 91.66%;
+}
+.col-12{
+	width: 100%
+}
+.p-1{
+	padding: 4px;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+.p-2{
+	padding: 8px;
+}
+.p-3{
+	padding: 12px;
+}
+.p-5{
+	padding: 20px;
+}
+.px-4{
+	padding: 0 12px;
+}
+.py-4{
+	padding: 12px 0;
+}
+.pt-3{
+	padding-top: 12px;
+}
+.pt-8{
+	padding-top: 32px;
+}
+.pt-10{
+	padding-top: 40px;
+}
+.pt-15{
+	padding-top: 60px;
+}
+.pt-20{
+	padding-top: 80px;
+}
+.pt-30{
+	padding-top: 120px;
+}
+.pt-40{
+	padding-top: 160px;
+}
+.px-8{
+	padding: 0 32px;
+}
+.py-8{
+	padding: 32px 0;
+}
+.p-10{
+	padding: 40px;
+}
+.px-10{
+	padding: 0 40px;
+}
+.pb-15{
+	padding-bottom: 40px; 
+}
+.pr-15{
+	padding-right: 60px;
+}
+.px-15{
+	padding: 0 60px;
+}
+.py-15{
+	padding: 60px 0;
+}
+.py-30{
+	padding: 120px 0 50px;
+}
+.py-40{
+	padding: 160px 0 ;
+}
+.m-1{
+	margin: 4px;
+}
+.mt-1{
+	margin-top: 4px;
+}
+.mb-1{
+	margim-bottom: 4px;
+}
+.ml-1{
+	margin-left: 4px;
+}
+.mr-1{
+	margin-right: 4px;
+}
+.mx-1{
+	margin: 0 4px;
+}
+.my-1{
+	margin: 4px 0;
+}
+.ml-4{
+	margin-left: 16px;
+}
+.ml-18{
+	margin-left: 72px;
+}
+.ml-20{
+	margin-left: 80px;
+}
+.ml-30{
+	margin-left: 120px;
+}
+.ml-40{
+	margin-left: 160px;
+}
+.ml-50{
+	margin-left: 200px;
+}
+.mt-3{
+	margin-top: 12px;
+}
+.mt-5{
+	margin-top: 20px;
+}
+.mt-10{
+	margin-top: 40px;
+}
+.mt-18{
+	margin-top: 72px;
+}
+.mt-20{
+	margin-top: 80px;
+}
+.mt-30{
+	margin-top: 120px;
+}
+.mt-50{
+	margin-top: 200px;
+}
+.mt-100{
+	margin-top: 400px;
+}
+.mx-auto{
+	margin: 0 auto;
+}
+.my-20{
+	margin: 80px 0;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-center{
+	justify-content: center;
+}
+.align-s-center{
+	align-self: center;
+}
+.align-s-end{
+	align-self: flex-end;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.btn{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #1F1F1F;
+	border-radius: 20px;
+}
+.btn:hover{
+/*	-webkit-box-shadow: 2px 1px 16px 3px rgba(0,0,0,0.26);*/
+	box-shadow: 0px 1px 10px 3px rgba(0,0,0,0.12);
+}
+.btn-primary{
+	background-color: rgba(232,108,74,0.81);
+	color: white;
+}
+.btn-secondary{
+	background-color: rgba(235,157,136,0.73);
+	color: #1f1f1f;
+}
+.btn-white{
+	background-color: white;
+	box-shadow: 1px 1px 11px 1px rgba(0,0,0,0.10)
+}
